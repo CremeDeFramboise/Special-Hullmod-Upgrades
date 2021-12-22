@@ -1,0 +1,10 @@
+{
+	#Misc	
+	#Hullmod Conflict WUB WUB
+	"spuhm_hullmod_conflict":{
+	"sounds":[
+		{"file":"sounds/misc/spuhm_hullmod_conflict.ogg", "pitch":1, "volume":0.6},
+		],
+	},
+
+}

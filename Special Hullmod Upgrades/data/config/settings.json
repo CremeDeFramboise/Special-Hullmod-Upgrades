@@ -1,0 +1,45 @@
+{
+	"designTypeColors":{
+	    "Altair Exotech":[35,175,245,255],
+	    "Culann Starforge R&D":[135,206,255,255],
+	    "Domain of Man":[185,185,185,255],
+		"Galatia Academy":[215,235,235,255],
+		"GA-X Industries":[90,100,5,255],
+	    "Huan-Gogel":[155,240,30,255],
+		"Interstellar Dynamics":[250,250,150,255],
+		"Lord of Flies":[160,60,165,255],
+		"Mark of the Slayer":[255,30,5,255],
+		"Orion Shipyards":[205,65,150,255],
+		"RedSuns Racing Team":[240,10,10,255],
+		"Reverse Engineered":[185,145,135,255],
+		"The Watchers":[190,5,15,255]
+	},
+
+	"graphics":{
+        "characters":{
+		    # One-time appearance NPC at PT bar
+		        "hubert":"graphics/portraits/characters/hubert_portrait.png"
+		},	
+		"tooltips":{
+		    #Rarity Banners
+		        "banner_ssr":"graphics/tooltips/banner_ssr.png",
+				"banner_sr":"graphics/tooltips/banner_sr.png",
+				"banner_r":"graphics/tooltips/banner_r.png",
+		    #Hullmod Tooltip
+				"hullmod_incompatible":"graphics/tooltips/sphmu_hullmod_incompatible.png",
+			#Status Tooltips
+				"battle_frenzy":"graphics/tooltips/sphmu_battle_frenzy.png",
+			    "black_flies":"graphics/tooltips/sphmu_beelzebub_sigil.png",
+				"exotic_shields":"graphics/tooltips/sphmu_exotic_shields.png",
+			    "nanite_repair":"graphics/tooltips/sphmu_nanite_repair.png",
+                "nanoforge_missile_fab":"graphics/tooltips/sphmu_nanoforge_missile_fab.png"
+		},
+		"misc":{
+		    "langelaan_circle":"graphics/fx/spupgrades_langelaan_sigil.png",
+		},		
+	},
+
+    "plugins":{
+        "SUHullmodDisplayBlockScript":"data.hullmods.SUHullmodDisplayBlockScript"
+    },
+}
