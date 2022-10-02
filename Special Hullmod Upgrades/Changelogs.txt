@@ -1,4 +1,72 @@
+[SHU Version 1.1] 10/02/2022
+==============================
+[General]
+- Fixed the description timer of Corrupted Nanoforge's missile forging in combat.
+- Removed the annoying anvil sfx when installing hullmod.
+- AI core hullmods got their own hullmod icons to set it apart from other mods.
+- New custom intel that hints the player to visit Port Tse Franchise station if they still don't have the SHU hullmods.
+- Removing the SHU hullmod will now immediately return the used AI cores or special items.
+- Revised tooltip formatting in general.
+- Changed Hubert's portrait.
+
+[Changes]
+Armament Support System (Gamma/Beta/Alpha)
+- Now increases deployment points by 5%/10%/15%.
+
+Expanded Fighter Manufactory hullmod:
+- Now blocks Expanded Deck Crew.
+
+Flux Hypershunt hullmod:
+- Now increases overload duration by 20%.
+
+Maintenance Optimizer hullmod:
+- Now blocks Efficiency Overhaul.
+
+Nanite Swarm Cluster hullmod:
+- Adjusted flat armor bonus from 50/80/100/150 to 50/100/150/200.
+- Overloading will prevent the N-Repair system to work.
+
+Plasma-Charged Shield Emitter hullmod:
+- Adjusted shield upkeep reduction from 40% to 60%.
+- Now blocks Stabilized Shields.
+
+High-Throttled Weapon Torque hullmod:
+- Increased weapon projectile speed from 25% to 30%.
+- Reduced weapon recoil from 50% to 60%.
+- Now increases 15% projectile hit strength for armor damage reduction calculation.
+
+Variable Fusion Capacitors hullmod:
+- Increased damage to shields from 10% to 15%.
+- Now reduces beam flux cost by 10%.
+- Now blocks Advanced Optics.
+
+[New]
+Biologic Commodity Replicator hullmod:
+- Requires Biofactory Embryo.
+- Requires organics to produce harvested organs per week.
+
+[Discarded]
+Drive Augmentation Net hullmod: (disabled)
+- Requires Fullerene Spool.
+- Increases maximum burn of the slowest ship in the fleet.
+
+Fleet Commercial Interface hullmod: (disabled)
+- Requires Dealmaker Holosuite.
+- Reduces the tariff of current interacted market.
+- Generate credits at the end of the month.
+==============================
+
+
+--| OLD CHANGELOGS |--
+
+[SHU Version 1.0a] 12/23/2021
+==============================
+- Fix the weird NPE and bug with the hullmods.
+- Additional tooltip information.
+==============================
+
+
 [SHU Version 1.0] 12/22/2021
 ==============================
-- Initial release
+- Initial Discord release.
 ==============================

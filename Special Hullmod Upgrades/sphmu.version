@@ -5,7 +5,9 @@
     "modVersion":
     {
         "major":1,
-        "minor":0,
-        "patch":a # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
+        "minor":1,
+        "patch"0: # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
     },
+	"starsectorVersion":"0.95.1a-RC6",
+	"directDownloadURL":"https://github.com/CremeDeFramboise/Special-Hullmod-Upgrades/releases/download/v1.0a/Special.Hullmod.Upgrades.zip"
 }
