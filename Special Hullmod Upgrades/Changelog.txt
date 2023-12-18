@@ -1,0 +1,298 @@
+[SHU Version 1.4a] 12/18/2023
+==============================
+[General]
+- Polished some scripting.
+- Added a new toggle option to turn off the item destruction penalty when the ship is destroyed or disabled in combat.
+
+[CROSS-MOD INTERACTION]
+United Auroran Federation:
+- The collaboration content is now available.
+- New six special hullmods have been added.
+
+[How to get]
+- UAF mod must be present in your modlist.
+- To obtain the collaboration hullmods, you must be at least 50~ relationship level with Nia Auroria, she's located at Vermillion Station.
+
+[Changes]
+High-Throttled Weapon Torque hullmod:
+- Adjusted hit strength of weapons to armor from 15% to 10%.
+
+Nanite Swarm Cluster hullmod:
+- Fixed the visual repair animation bug when not piloted by the player.
+
+Orbital Filament Anchor hullmod:
+- Blocks Monofilament Tow Cable hullmod.
+
+Variable Fusion Capacitors hullmod:
+- Fixed the stats description when in Custom Stats Mode.
+
+==============================
+
+
+
+
+
+--| OLD CHANGELOGS |--
+[SHU Version 1.3c] 06/05/2023
+==============================
+[General]
+- Updated to 0.96a.
+- Refactored scripts and fixed the critical issue with Field Repair skill (this time, for sure!).
+- Fixed the underlying issue when reloading the current save or loading into another save in-game. The bug makes the item installation and refunding unstable.
+- Fixed the bizarre CTD with Plasma-Charged Shield Emitter hullmod in combat.
+- Pre-setup for LunaLib's soft integration.
+
+
+[Changes]
+Arsenal Autoforge hullmod:
+- The reload function does not include the missile ammo bonus from skills and hullmods.
+- Added the information above in the hullmod tooltip for clarity.
+- Incompatible with Missile Autoloader.
+
+Arsenal Autoforge (Enhanced) hullmod:
+- The reload function does not include the missile ammo bonus from skills and hullmods.
+- Added the information above in the hullmod tooltip for clarity.
+- Incompatible with Missile Autoloader.
+
+High-Throttled Weapon Torque hullmod:
+- Fixed the misleading number of the critical damage text pop-out in combat.
+- Changed the critical on-hit text in combat.
+
+Nanite Swarm Cluster hullmod:
+- Adjusted the hull repair rate of its passive system from 0.2% to 0.4%.
+
+
+[CROSS-MOD INTERACTION]
+United Auroran Federation
+- WIP (Sorry, been super busy lately!)
+==============================
+
+
+[SHU Version 1.3] 03/11/2023
+==============================
+[General]
+- Now requires GraphicsLib.
+- Fixed the bug that happens with the Field Repair skill when learned (finally).
+- Fixed the endless item duplication bug.
+- Fixed the CTD when you view the hullmod tooltip of Maintenance Optimizer and Synchro-Fuel Loader in the main menu mission refit screen.
+- Fixed more typos again and again.
+- Fixed the bug where the installed AI core and colony item aren't removed when the ship is disabled or destroyed in combat.
+- Disabling the incompatibilities of the Plasma-Charged Shield Emitter actually WORKS now.
+- Arsenal Autoforge hullmods will now stick to the vanilla hullmod incompatibilities, it can now stack with modded autoforges.
+- Each passive, additional, or extra system/effect of special hullmods can now be disabled individually via 'sphmu_options'.
+
+
+[Changes]
+Fleet Tactical Relay hullmod:
+- The passive system no longer increases the fighters' weapon range in combat. This is an unintended effect.
+- No longer extends the range of missile weapons.
+
+Flux Hypershunt hullmod:
+- Improves its flux shunt VFX.
+
+High-Throttled Weapon Torque hullmod:
+- New passive system: Ultra-Velocity Rounds.
+- Projectiles have a chance to deal critical damage on-hit.
+- Only applies to kinetic damage.
+
+Nanite Swarm Cluster hullmod:
+- Adjusted engine and weapon repair speed in combat from 80% to 60%.
+- Adjusted the hull repair rate of its passive system from 1% to 0.2%.
+- Fixed the issue where the were modules unable to use the N-Repair system.
+
+Orbital Filament Anchor hullmod:
+- Towed ships will have a reduced fuel cost if it is mothballed.
+- Not applicable to ArmaA's strikecrafts.
+
+Quantum Heatsink hullmod:
+- New extra system: Cryoflare Launcher.
+- The ship will launch cryoflares if a nearby enemy missile is detected during overload.
+
+Variable Fusion Capacitors hullmod:
+- New passive system: Supercharged Capacitors
+- When the ship's flux level is above 30%, energy-type projectiles have a 10% chance to arc to weapons and engines, dealing extra damage half of the original hit.
+
+
+[CROSS-MOD INTERACTION]
+Arma Armatura
+- Armament Support System (Gamma/Beta/Alpha) now increases Strikecraft's max combat readiness.
+
+Gacha S-Mods
+- One SSR Gacha hullmod was added to the list.
+- Mikohime Blessings
+
+Sindrian Fuel Company
+- Adds two new special upgrade hullmods if the mod is present.
+- These can be obtained from certain NPCs in SFC market.
+==============================
+
+
+[SHU Version 1.2] 11/04/2022
+==============================
+[General]
+- Now compatible with Nexerelin's random sector.
+- Added new configuration .ini file (sphmu_options) for disabling or enabling specific hullmod.
+- Added a toggle option for disabling certain hullmod penalties.
+- Added a toggle option for disabling incompatibilities with vanilla hullmods.
+- Added console command SHUAllHullmods that lets you learn all the standard SHU hullmods (recommended to use if something weird happened).
+- Further improved hullmod tooltips readability by adding a keypress feature for viewing additional information.
+- Fixed the bug that indiscriminately eats up your items when you use the Strip option in the refit screen.
+- Fixed the bug where if you saved a preset variant of a ship with SHU hullmods, the item gets eaten when that preset variant appears in your fleet doctrine screen.
+- Fixed the inconsistent refunding and consumption of AI cores and colony items.
+- Added SHU prefix to several files.
+- Null checks for standard SHU and hidden Gacha hullmod's addPostDescriptionSection().
+- More null checks in campaign-related scripts.
+- Did I say more null checks?
+- Added a new option called ~Custom Stats Mode~ that allows you to edit the stats of each standard SHU hullmods.
+- Custom Stats Mode can be toggled on/off in "sphmu_options". It is disabled by default.
+
+
+[Changes]
+Armament Support System (Gamma/Beta/Alpha) hullmod:
+- New cross-mod interaction with Yunru's Integrated AI core hullmods.
+- A bonus effect will trigger if the respective AI core hullmod matches with its same type.
+- When installed on a modular ship, the hullmod will extend to the modules.
+- Minor bonus when installed on Armaa's strikecraft.
+
+Arsenal Autoforge hullmod:
+- Missile Autoforge (C-Nanoforge) renamed into Arsenal Autoforge.
+- Adjusted ammo capacity of weapons from 10% to 20%.
+- Adjusted ammo capacity of missiles from 20% to 30%.
+- When installed on a modular ship, the hullmod will extend to the modules.
+
+Arsenal Autoforge (Enhanced) hullmod:
+- Missile Autoforge (P-Nanoforge) was renamed into Arsenal Autoforge (Enhanced).
+- Now decreases the reload rate of ammo-base weapons by 30%.
+- Adjusted ammo capacity of weapons from 20% to 50%.
+- Adjusted ammo capacity of missiles from 40% to 100%.
+- When installed on a modular ship, the hullmod will extend to the modules.
+
+Biologic Commodity Replicator hullmod:
+- Now provides a fleet-wide crew and fighter crew casualties reduction by 25%. Stacks with another ship that has Biologic Commodity Replicator but has a diminishing return.
+
+Expanded Fighter Manufactory hullmod:
+- New additional effect added: Atmospheric Invasion Refit
+- Each wing squadron improves the effective strength of ground operation up to the total number of marines in the fleet.
+- When installed on a modular ship, the hullmod will extend to the modules.
+
+Flux Hypershunt hullmod:
+- New passive system added: Flux Discharge
+- When the ship's flux level is above 50%, the build-up flux can be released as a deadly discharge by venting, and this deals energy damage to nearby enemy ships.
+- When installed on a modular ship, the hullmod will extend to the modules.
+
+High-Throttled Weapon Torque hullmod:
+- When installed on a modular ship, the hullmod will extend to the modules.
+
+Maintenance Optimizer hullmod:
+- Adjusted supply cost reduction from 40% to 50%.
+- Now increases maximum peak CR by 40%.
+- Now lessens the chance to suffer from weapon, engine, and critical malfunctions by 25%.
+- Repair speed and CR recovery rate now affect the whole fleet when installed on a capital ship. The effect stacks with another ship that has Maintenance Optimizer and it caps at 200%.
+
+Nanite Swarm Cluster hullmod:
+- When installed on a modular ship, the hullmod will extend to the modules.
+
+Plasma-Charged Shield Emitter hullmod:
+- New passive system added: Charged Acceleration
+- The rising flux level energizes the shield emitter and further improves the shield deployment and turn speed.
+- When installed on a modular ship, the hullmod will extend to the modules.
+
+Quantum Heatsink hullmod:
+- Increased engine durability from 50% to 100%.
+- When installed on a modular ship, the hullmod will extend to the modules.
+
+Synchro-Fuel Loader hullmod:
+- Now reduces the fuel consumption cost of the fleet by 5%. Stacks with another ship that has Synchro-Fuel Loader hullmod in your fleet and this bonus caps at 30%.
+
+Variable Fusion Capacitors hullmod:
+- When installed on a modular ship, the hullmod will extend to the modules.
+
+
+[New]
+Orbital Filament Anchor hullmod:
+- Requires Fullerene Spool.
+- Reduces supply and heavy machinery costs for survey operation.
+- Increases normal salvage gain from salvage operations.
+- Increases the chance of getting rare loot from salvage operations.
+- Increases maximum burn speed of the slowest ship in your fleet when installed on a frigate or destroyer.
+
+Fleet Tactical Relay hullmod:
+- Fleet Commercial Interface hullmod renamed into Fleet Tactical Relay.
+- Requires Dealmaker Holosuite.
+- Increases command points recovery when installed on a flagship.
+- Provides top speed increase for the allied ship in combat.
+- Provides ECM bonus in combat.
+- Now increases the maximum weapon range of your fleet in combat. Range increases depending on how many deployed ships with Fleet Tactical Relay.
+==============================
+
+
+[SHU Version 1.1] 10/02/2022
+==============================
+[General]
+- Forum release.
+- Fixed the description timer of Corrupted Nanoforge's missile forging in combat.
+- Removed the annoying anvil sfx when installing hullmod.
+- AI core hullmods got their own hullmod icons to set it apart from other mods.
+- New custom intel that hints the player to visit Port Tse Franchise station if they still don't have the SHU hullmods.
+- Removing the SHU hullmod will now immediately return the used AI cores or special items.
+- Revised tooltip formatting in general.
+- Changed Hubert's portrait.
+
+[Changes]
+Armament Support System (Gamma/Beta/Alpha)
+- Now increases deployment points by 5%/10%/15%.
+
+Expanded Fighter Manufactory hullmod:
+- Now blocks Expanded Deck Crew.
+
+Flux Hypershunt hullmod:
+- Now increases overload duration by 20%.
+
+Maintenance Optimizer hullmod:
+- Now blocks Efficiency Overhaul.
+
+Nanite Swarm Cluster hullmod:
+- Adjusted flat armor bonus from 50/80/100/150 to 50/100/150/200.
+- Overloading will prevent the N-Repair system to work.
+
+Plasma-Charged Shield Emitter hullmod:
+- Adjusted shield upkeep reduction from 40% to 60%.
+- Now blocks Stabilized Shields.
+
+High-Throttled Weapon Torque hullmod:
+- Increased weapon projectile speed from 25% to 30%.
+- Reduced weapon recoil from 50% to 60%.
+- Now increases 15% projectile hit strength for armor damage reduction calculation.
+
+Variable Fusion Capacitors hullmod:
+- Increased damage to shields from 10% to 15%.
+- Now reduces beam flux cost by 10%.
+- Now blocks Advanced Optics.
+
+[New]
+Biologic Commodity Replicator hullmod:
+- Requires Biofactory Embryo.
+- Requires organics to produce harvested organs per 10 days.
+
+[Discarded]
+Drive Augmentation Net hullmod: (disabled)
+- Requires Fullerene Spool.
+- Increases maximum burn of the slowest ship in the fleet.
+
+Fleet Commercial Interface hullmod: (disabled)
+- Requires Dealmaker Holosuite.
+- Reduces the tariff of current interacted market.
+==============================
+
+
+[SHU Version 1.0a] 12/23/2021
+==============================
+- Fix the weird NPE and bug with the hullmods.
+- Additional tooltip information.
+==============================
+
+
+[SHU Version 1.0] 12/22/2021
+==============================
+- Initial Discord release.
+==============================
