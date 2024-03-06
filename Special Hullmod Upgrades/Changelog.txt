@@ -1,3 +1,36 @@
+[SHU Version 1.5] 03/06/2024
+==============================
+[General]
+- Updated to 0.97.
+- Script refactoring.
+- Cleaned some stuff.
+- Complete soft integration with LunaLib config (check out the LunaLib options for SHU!).
+
+[CROSS-MOD INTERACTION]
+United Auroran Federation:
+- New special hullmod: Defense Focus Integrator.
+- Consumes one UAF Interplanetary Rice Cooker to install.
+
+[How to get]
+- UAF mod must be present in your modlist.
+- To obtain the collaboration hullmods, you must be at least 50~ relationship level with Nia Auroria, she's located at Vermillion Station.
+
+[Changes]
+- Fixed the item destruction toggle.
+==============================
+
+
+
+--| OLD CHANGELOGS |--
+[SHU Version 1.4b] 12/23/2023
+==============================
+[Changes]
+Magnetic Sensor Jammer hullmod:
+- Increased the radius of the jamming range from 800su to 1200su.
+- Fixed the NPE.
+==============================
+
+
 [SHU Version 1.4a] 12/18/2023
 ==============================
 [General]
@@ -25,14 +58,9 @@ Orbital Filament Anchor hullmod:
 
 Variable Fusion Capacitors hullmod:
 - Fixed the stats description when in Custom Stats Mode.
-
 ==============================
 
 
-
-
-
---| OLD CHANGELOGS |--
 [SHU Version 1.3c] 06/05/2023
 ==============================
 [General]
