@@ -1,3 +1,13 @@
+[SHU Version 1.5a] 12/29/2024
+==============================
+[Changes]
+Nanite Swarm Cluster hullmod:
+- Fixed the passive effect of the N-Repair system, it should work now.
+==============================
+
+
+
+--| OLD CHANGELOGS |--
 [SHU Version 1.5] 03/06/2024
 ==============================
 [General]
@@ -19,9 +29,6 @@ United Auroran Federation:
 - Fixed the item destruction toggle.
 ==============================
 
-
-
---| OLD CHANGELOGS |--
 [SHU Version 1.4b] 12/23/2023
 ==============================
 [Changes]
