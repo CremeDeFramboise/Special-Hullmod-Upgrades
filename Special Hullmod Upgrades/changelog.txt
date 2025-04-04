@@ -11,3 +11,4 @@ Version 1.6 - 4/4/2025
 - Added new option to assign different hotkey for the subsystem of certain hullmods.
 - Added new cross-mod interaction with the Sunrider mod. Biologic Commodity Replicator and Flux Hypershunt provides additional effect to the Sunrider ship.
 - Added a pop-up prompt when purchasing the hullmod specs from Hubert.
+- Removed the unintended hard dependency with LunaLib. It can function now without it.
