@@ -1,0 +1,13 @@
+Version 1.6 - 4/4/2025
+
+- Updated to Starsector 0.98a.
+- Adjusted everything inline with the new codex system.
+- Refactored, optimized and cleaned every scripts. (Thank you Alex for incorporating the SHU elements in vanilla!)
+- Adapted the new item installation framework provided by the base game.
+- The OP cost of SHU hullmods remains 0 but the installed items can still disappear if the gets disabled or destroyed in combat. (There's a toggle for this, turn it off if you wish.)
+- Fixed existing bugs and typos.
+- Added new toggle option to disable the mutual exclusivity of Special Upgrade and Armament Support System hullmods. (You can install all of them in one ship!)
+- Added new toggle to enable Gacha-Smods which is basically a cheat toggle.
+- Added new option to assign different hotkey for the subsystem of certain hullmods.
+- Added new cross-mod interaction with the Sunrider mod. Biologic Commodity Replicator and Flux Hypershunt provides additional effect to the Sunrider ship.
+- Added a pop-up prompt when purchasing the hullmod specs from Hubert.
